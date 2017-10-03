@@ -15,14 +15,14 @@ namespace SalesStronge.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Tu decripción de aplicación.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Tu pagina de contacto.";
 
             return View();
         }
